@@ -1,0 +1,8 @@
+<template>
+      <lightning-spinner if:false={isLoaded} alternative-text="Loading records"></lightning-spinner>
+      <lightning-card title="Omniscript Tree Grid Overview" icon-name="custom:custom86">
+            <lightning-tree-grid if:true={isLoaded} columns={gridColumns} data={gridTreeData} key-field="key"
+                  hide-checkbox-column="true">
+            </lightning-tree-grid>
+      </lightning-card>
+</template>

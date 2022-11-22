@@ -7,77 +7,30 @@ import getOmniscriptsElements from '@salesforce/apex/OmnistudioController.getOmn
 import getOmniscripts from '@salesforce/apex/OmnistudioController.getOmniscripts'
 import { OmniscriptController } from 'c/omnistudioController'
 
-const COLUMNS_DEFINITION = [
-	{
-		type: 'text',
-		fieldName: 'name',
-		label: 'Name',
-		initialWidth: 300,
-	},
-	{
-		type: 'url',
-		fieldName: 'url',
-		label: 'Type',
-		typeAttributes: {
-			label: { fieldName: 'type' },
-		},
-	},
-	{
-		type: 'text',
-		fieldName: 'notes',
-		label: 'Notes',
-	},
-	{
-		type: 'text',
-		fieldName: 'owner',
-		label: 'Owner',
-	},
-]
 
-function asTreeData(input) {
-	var res =  {
-		...input,
-		key: input.key || (input.id  + input.name),
-		url: input.id ? '/' + input.id : ''
-	}
-	if (input.children) {
-		res._children = input.children.map(asTreeData)
-	}
-	return res
-}
-
-export default class CalendarChart extends LightningElement {
+export default class OmnistudioGraph extends LightningElement {
 
 	@api
 	recordId
 
 	treeData = undefined
-	gridColumns = COLUMNS_DEFINITION
-
+	
 	svgWidth = 1300
 	svgHeight = 750
 	svg = undefined
 
 	isLoaded = false
-	graphViz = '';
 	selectedId = undefined
 	selectedUrl = undefined
 	selectedElement = {}
 
 	selected = 'none'
-	colors = undefined
+	
 	pos = 0
-	//controller = undefined
-
-
-	get gridTreeData() {
-		return this.treeData?.children?.map(asTreeData)
-	}
+	
 
 	handleClickLeft() {
-		//this.graphViz = JSON.stringify(this.treeData, null, 2);
 		this.pos += -10
-		//console.log(getElementTypes())
 		this.svg.attr("transform", "translate(" + this.pos + ",0)")
 	}
 	handleClickRight() {
@@ -85,7 +38,6 @@ export default class CalendarChart extends LightningElement {
 		this.svg.attr("transform", "translate(" + this.pos + ",0)")
 	}
 	renderedCallback() {
-
 		if (!this.isLoaded) {
 			Promise.all([
 				loadScript(this, D3 + '/d3.min.js'),
@@ -136,15 +88,10 @@ export default class CalendarChart extends LightningElement {
 		if (!this.isLoaded)
 			return
 
-
 		// Set the dimensions and margins of the diagram
 		let margin = { top: 20, right: 90, bottom: 30, left: 90 },
 			width = this.svgWidth - margin.left - margin.right,
 			height = this.svgHeight - margin.top - margin.bottom;
-
-		/*let tooltip = d3.select(this.template.querySelector('div.tooltip')).append("div")
-			.attr("class", "tooltip")
-			.style("opacity", 0);*/
 
 		this.svg = d3.select(this.template.querySelector('svg.flowchart'))
 			.append("g")
