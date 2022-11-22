@@ -1,0 +1,33 @@
+[
+    {
+      "attributes": {
+        "type": "vlocity_ins__OmniScript__c",
+        "url": "/services/data/v55.0/sobjects/vlocity_ins__OmniScript__c/a3F8W000000vdABUAY"
+      },
+      "Id": "a3F8W000000vdABUAY",
+      "Name": "Bulk Enrollment",
+      "vlocity_ins__SubType__c": "Bulk",
+      "vlocity_ins__Type__c": "InsEnrollment"
+    },
+    {
+      "attributes": {
+        "type": "vlocity_ins__OmniScript__c",
+        "url": "/services/data/v55.0/sobjects/vlocity_ins__OmniScript__c/a3F8W000000vdAwUAI"
+      },
+      "Id": "a3F8W000000vdAwUAI",
+      "Name": "InsRecordHeaderDetailsInsPolicy",
+      "vlocity_ins__SubType__c": "getDetails",
+      "vlocity_ins__Type__c": "InsRecordHeaderInsurancePolicy",
+      "vlocity_ins__ProcedureKey__c": "getDetails"
+    },
+    {
+      "attributes": {
+        "type": "vlocity_ins__OmniScript__c",
+        "url": "/services/data/v55.0/sobjects/vlocity_ins__OmniScript__c/a3F8W000000vdAxUAI"
+      },
+      "Id": "a3F8W000000vdAxUAI",
+      "Name": "InsAccountIntelligenceRecords",
+      "vlocity_ins__SubType__c": "offers",
+      "vlocity_ins__Type__c": "InsIntelligence"
+    }
+  ]

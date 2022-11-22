@@ -1,0 +1,197 @@
+[
+    {
+      "attributes": {
+        "type": "vlocity_ins__Element__c",
+        "url": "/services/data/v55.0/sobjects/vlocity_ins__Element__c/a1o8W000004mmEEQAY"
+      },
+      "Id": "a1o8W000004mmEEQAY",
+      "Name": "addressHeadline",
+      "vlocity_ins__Order__c": 7,
+      "vlocity_ins__OmniScriptId__c": "a3F8W000000vdAjUAI",
+      "vlocity_ins__Type__c": "Text Block",
+      "vlocity_ins__InternalNotes__c": null,
+      "vlocity_ins__PropertySet__c": "{\"HTMLTemplateId\":\"\",\"controlWidth\":12,\"dataJSON\":false,\"disOnTplt\":false,\"label\":null,\"sanitize\":false,\"show\":null,\"text\":\"<h4 style=\\\"margin: 8px 0; color: #3e3e3c;\\\"><strong>Address Details:</strong></h4>\",\"textKey\":\"\"}"
+    },
+    {
+      "attributes": {
+        "type": "vlocity_ins__Element__c",
+        "url": "/services/data/v55.0/sobjects/vlocity_ins__Element__c/a1o8W000004mmEFQAY"
+      },
+      "Id": "a1o8W000004mmEFQAY",
+      "Name": "addressDetails",
+      "vlocity_ins__Order__c": 8,
+      "vlocity_ins__OmniScriptId__c": "a3F8W000000vdAjUAI",
+      "vlocity_ins__Type__c": "Type Ahead Block",
+      "vlocity_ins__InternalNotes__c": null,
+      "vlocity_ins__PropertySet__c": "{\"HTMLTemplateId\":\"\",\"accessibleInFutureSteps\":false,\"callFrequency\":300,\"conditionType\":\"Hide if False\",\"controlWidth\":6,\"dataJsonPath\":\"\",\"dataProcessorFunction\":\"\",\"debounceValue\":0,\"disOnTplt\":false,\"disableDataFilter\":false,\"editMode\":true,\"enableGoogleMapsAutocomplete\":false,\"enableLookup\":false,\"googleAddressCountry\":\"all\",\"googleMapsAPIKey\":\"\",\"googleTransformation\":{\"administrative_area_level_1\":\"city\",\"administrative_area_level_2\":\"state\",\"country\":\"country\",\"locality\":\"\",\"postal_code\":\"postalCode\",\"street\":\"street\"},\"help\":false,\"helpText\":\"\",\"hideEditButton\":false,\"hideMap\":true,\"inputWidth\":12,\"label\":\"Search for an Address\",\"maxLength\":255,\"minLength\":0,\"newItemLabel\":\"New\",\"readOnly\":false,\"required\":false,\"show\":null,\"showInputWidth\":false,\"typeAheadKey\":\"\",\"useDataJson\":true}"
+    },
+    {
+      "attributes": {
+        "type": "vlocity_ins__Element__c",
+        "url": "/services/data/v55.0/sobjects/vlocity_ins__Element__c/a1o8W000004mmEGQAY"
+      },
+      "Id": "a1o8W000004mmEGQAY",
+      "Name": "street",
+      "vlocity_ins__Order__c": 9,
+      "vlocity_ins__OmniScriptId__c": "a3F8W000000vdAjUAI",
+      "vlocity_ins__Type__c": "Text",
+      "vlocity_ins__InternalNotes__c": null,
+      "vlocity_ins__PropertySet__c": "{\"HTMLTemplateId\":\"\",\"accessibleInFutureSteps\":false,\"conditionType\":\"Hide if False\",\"controlWidth\":12,\"debounceValue\":0,\"defaultValue\":\"%GroupInfo:Address:street%\",\"disOnTplt\":false,\"help\":false,\"helpText\":\"\",\"hide\":false,\"inputWidth\":12,\"label\":\"Street\",\"mask\":\"\",\"maxLength\":255,\"minLength\":0,\"pattern\":\"\",\"ptrnErrText\":\"\",\"readOnly\":false,\"repeat\":false,\"repeatClone\":false,\"repeatLimit\":null,\"required\":false,\"show\":null,\"showInputWidth\":false}"
+    },
+    {
+      "attributes": {
+        "type": "vlocity_ins__Element__c",
+        "url": "/services/data/v55.0/sobjects/vlocity_ins__Element__c/a1o8W000004mmEHQAY"
+      },
+      "Id": "a1o8W000004mmEHQAY",
+      "Name": "lineBreakForCity",
+      "vlocity_ins__Order__c": 10,
+      "vlocity_ins__OmniScriptId__c": "a3F8W000000vdAjUAI",
+      "vlocity_ins__Type__c": "Line Break",
+      "vlocity_ins__InternalNotes__c": null,
+      "vlocity_ins__PropertySet__c": "{\"HTMLTemplateId\":\"\",\"disOnTplt\":false,\"label\":\"LineBreak2\",\"padding\":0,\"show\":null}"
+    },
+    {
+      "attributes": {
+        "type": "vlocity_ins__Element__c",
+        "url": "/services/data/v55.0/sobjects/vlocity_ins__Element__c/a1o8W000004mmEIQAY"
+      },
+      "Id": "a1o8W000004mmEIQAY",
+      "Name": "city",
+      "vlocity_ins__Order__c": 11,
+      "vlocity_ins__OmniScriptId__c": "a3F8W000000vdAjUAI",
+      "vlocity_ins__Type__c": "Text",
+      "vlocity_ins__InternalNotes__c": null,
+      "vlocity_ins__PropertySet__c": "{\"HTMLTemplateId\":\"\",\"accessibleInFutureSteps\":false,\"conditionType\":\"Hide if False\",\"controlWidth\":6,\"debounceValue\":0,\"defaultValue\":\"%GroupInfo:Address:city%\",\"disOnTplt\":false,\"help\":false,\"helpText\":\"\",\"hide\":false,\"inputWidth\":12,\"label\":\"City\",\"mask\":\"\",\"maxLength\":255,\"minLength\":0,\"pattern\":\"\",\"ptrnErrText\":\"\",\"readOnly\":false,\"repeat\":false,\"repeatClone\":false,\"repeatLimit\":null,\"required\":false,\"show\":null,\"showInputWidth\":false}"
+    },
+    {
+      "attributes": {
+        "type": "vlocity_ins__Element__c",
+        "url": "/services/data/v55.0/sobjects/vlocity_ins__Element__c/a1o8W000004mmEMQAY"
+      },
+      "Id": "a1o8W000004mmEMQAY",
+      "Name": "getRatedProductsDetails",
+      "vlocity_ins__Order__c": 15,
+      "vlocity_ins__OmniScriptId__c": "a3F8W000000vdAjUAI",
+      "vlocity_ins__Type__c": "Remote Action",
+      "vlocity_ins__InternalNotes__c": null,
+      "vlocity_ins__PropertySet__c": "{\"HTMLTemplateId\":\"\",\"controlWidth\":12,\"disOnTplt\":false,\"enableActionMessage\":false,\"enableDefaultAbort\":false,\"errorMessage\":{\"custom\":[],\"default\":null},\"extraPayload\":{},\"failureAbortLabel\":\"Abort\",\"failureAbortMessage\":\"Are you sure?\",\"failureGoBackLabel\":\"Go Back\",\"failureNextLabel\":\"Continue\",\"inProgressMessage\":\"In Progress\",\"label\":\"getRatedProductsDetails\",\"message\":{},\"postMessage\":\"Done\",\"postTransformBundle\":\"\",\"preTransformBundle\":\"\",\"pubsub\":false,\"redirectNextLabel\":\"Next\",\"redirectNextWidth\":3,\"redirectPageName\":\"\",\"redirectPreviousLabel\":\"Previous\",\"redirectPreviousWidth\":3,\"redirectTemplateUrl\":\"vlcAcknowledge.html\",\"remoteClass\":\"InsProductService\",\"remoteMethod\":\"getRatedProducts\",\"remoteOptions\":{\"\":\"\",\"postTransformBundle\":\"\",\"preTransformBundle\":\"\"},\"remoteTimeout\":30000,\"responseJSONNode\":\"\",\"responseJSONPath\":\"\",\"sendJSONNode\":\"\",\"sendJSONPath\":\"\",\"show\":null,\"showPersistentComponent\":[false,false],\"ssm\":false,\"svgIcon\":\"\",\"svgSprite\":\"\",\"validationRequired\":\"Step\",\"wpm\":false}"
+    },
+    {
+      "attributes": {
+        "type": "vlocity_ins__Element__c",
+        "url": "/services/data/v55.0/sobjects/vlocity_ins__Element__c/a1o8W000004mmEJQAY"
+      },
+      "Id": "a1o8W000004mmEJQAY",
+      "Name": "state",
+      "vlocity_ins__Order__c": 12,
+      "vlocity_ins__OmniScriptId__c": "a3F8W000000vdAjUAI",
+      "vlocity_ins__Type__c": "Text",
+      "vlocity_ins__InternalNotes__c": null,
+      "vlocity_ins__PropertySet__c": "{\"HTMLTemplateId\":\"\",\"accessibleInFutureSteps\":false,\"conditionType\":\"Hide if False\",\"controlWidth\":6,\"debounceValue\":0,\"defaultValue\":\"%GroupInfo:Address:state%\",\"disOnTplt\":false,\"help\":false,\"helpText\":\"\",\"hide\":false,\"inputWidth\":12,\"label\":\"State\",\"mask\":\"\",\"maxLength\":255,\"minLength\":0,\"pattern\":\"\",\"ptrnErrText\":\"\",\"readOnly\":false,\"repeat\":false,\"repeatClone\":false,\"repeatLimit\":null,\"required\":false,\"show\":null,\"showInputWidth\":false}"
+    },
+    {
+      "attributes": {
+        "type": "vlocity_ins__Element__c",
+        "url": "/services/data/v55.0/sobjects/vlocity_ins__Element__c/a1o8W000004mmEKQAY"
+      },
+      "Id": "a1o8W000004mmEKQAY",
+      "Name": "postalCode",
+      "vlocity_ins__Order__c": 13,
+      "vlocity_ins__OmniScriptId__c": "a3F8W000000vdAjUAI",
+      "vlocity_ins__Type__c": "Text",
+      "vlocity_ins__InternalNotes__c": null,
+      "vlocity_ins__PropertySet__c": "{\"HTMLTemplateId\":\"\",\"accessibleInFutureSteps\":false,\"conditionType\":\"Hide if False\",\"controlWidth\":6,\"debounceValue\":0,\"defaultValue\":\"%GroupInfo:Address:postalCode%\",\"disOnTplt\":false,\"help\":false,\"helpText\":\"\",\"hide\":false,\"inputWidth\":12,\"label\":\"Postal Code\",\"mask\":\"\",\"maxLength\":7,\"minLength\":0,\"pattern\":\"\",\"ptrnErrText\":\"\",\"readOnly\":false,\"repeat\":false,\"repeatClone\":false,\"repeatLimit\":null,\"required\":false,\"show\":null,\"showInputWidth\":false}"
+    },
+    {
+      "attributes": {
+        "type": "vlocity_ins__Element__c",
+        "url": "/services/data/v55.0/sobjects/vlocity_ins__Element__c/a1o8W000004mmELQAY"
+      },
+      "Id": "a1o8W000004mmELQAY",
+      "Name": "country",
+      "vlocity_ins__Order__c": 14,
+      "vlocity_ins__OmniScriptId__c": "a3F8W000000vdAjUAI",
+      "vlocity_ins__Type__c": "Text",
+      "vlocity_ins__InternalNotes__c": null,
+      "vlocity_ins__PropertySet__c": "{\"HTMLTemplateId\":\"\",\"accessibleInFutureSteps\":false,\"conditionType\":\"Hide if False\",\"controlWidth\":6,\"debounceValue\":0,\"defaultValue\":\"%GroupInfo:Address:country%\",\"disOnTplt\":false,\"help\":false,\"helpText\":\"\",\"hide\":false,\"inputWidth\":12,\"label\":\"Country\",\"mask\":\"\",\"maxLength\":255,\"minLength\":0,\"pattern\":\"\",\"ptrnErrText\":\"\",\"readOnly\":false,\"repeat\":false,\"repeatClone\":false,\"repeatLimit\":null,\"required\":false,\"show\":null,\"showInputWidth\":false}"
+    },
+    {
+      "attributes": {
+        "type": "vlocity_ins__Element__c",
+        "url": "/services/data/v55.0/sobjects/vlocity_ins__Element__c/a1o8W000004mmERQAY"
+      },
+      "Id": "a1o8W000004mmERQAY",
+      "Name": "selectAProductInEditBlock",
+      "vlocity_ins__Order__c": 19,
+      "vlocity_ins__OmniScriptId__c": "a3F8W000000vdAjUAI",
+      "vlocity_ins__Type__c": "Edit Block",
+      "vlocity_ins__InternalNotes__c": null,
+      "vlocity_ins__PropertySet__c": "{\"HTMLTemplateId\":\"\",\"accessibleInFutureSteps\":false,\"allowDelete\":false,\"allowEdit\":false,\"allowNew\":false,\"conditionType\":\"Hide if False\",\"controlWidth\":6,\"deleteLabel\":\"Delete\",\"disOnTplt\":false,\"editLabel\":\"Edit\",\"elementName\":\"\",\"hide\":false,\"label\":null,\"maxDisplay\":3,\"mode\":\"LongCards\",\"newLabel\":\"New\",\"selectCheckBox\":\"SelectMultiProd\",\"selectMode\":\"Multi\",\"selectSobject\":\"Product2\",\"show\":null,\"sobjectMapping\":[{\"duplicateKey\":false,\"osElement\":\"Id\",\"sObjectField\":\"Id\"},{\"duplicateKey\":false,\"osElement\":\"Name\",\"sObjectField\":\"Name\"},{\"duplicateKey\":false,\"osElement\":\"LineOfBusiness__c\",\"sObjectField\":\"vlocity_ins__LineOfBusiness__c\"}],\"sumElement\":\"\",\"svgIcon\":\"custom86\",\"svgSprite\":\"custom\",\"valueSvgMap\":[]}"
+    },
+    {
+      "attributes": {
+        "type": "vlocity_ins__Element__c",
+        "url": "/services/data/v55.0/sobjects/vlocity_ins__Element__c/a1o8W000004mmECQAY"
+      },
+      "Id": "a1o8W000004mmECQAY",
+      "Name": "endDate",
+      "vlocity_ins__Order__c": 5,
+      "vlocity_ins__OmniScriptId__c": "a3F8W000000vdAjUAI",
+      "vlocity_ins__Type__c": "Formula",
+      "vlocity_ins__InternalNotes__c": null,
+      "vlocity_ins__PropertySet__c": "{\"HTMLTemplateId\":\"\",\"controlWidth\":12,\"dataType\":\"Text\",\"dateFormat\":\"MM-dd-yyyy\",\"disOnTplt\":false,\"expression\":\"IF(\\n%term%='Annual', \\nMOMENT(%effectiveDate%).add(364,'day').format(\\\"MM/DD/YYYY\\\"), \\nIF(%term%='Semi-Annual', MOMENT(%effectiveDate%).add(181,'day').format(\\\"MM/DD/YYYY\\\"),\\nMOMENT(%effectiveDate%).add(30,'day').format(\\\"MM/DD/YYYY\\\")\\n)\\n)\",\"hide\":true,\"hideGroupSep\":false,\"inputWidth\":12,\"label\":\"End Date\",\"mask\":null,\"show\":null,\"showInputWidth\":false}"
+    },
+    {
+      "attributes": {
+        "type": "vlocity_ins__Element__c",
+        "url": "/services/data/v55.0/sobjects/vlocity_ins__Element__c/a1o8W000004mmEDQAY"
+      },
+      "Id": "a1o8W000004mmEDQAY",
+      "Name": "lineBreakForAddress",
+      "vlocity_ins__Order__c": 6,
+      "vlocity_ins__OmniScriptId__c": "a3F8W000000vdAjUAI",
+      "vlocity_ins__Type__c": "Line Break",
+      "vlocity_ins__InternalNotes__c": null,
+      "vlocity_ins__PropertySet__c": "{\"HTMLTemplateId\":\"\",\"disOnTplt\":false,\"label\":\"LineBreak1\",\"padding\":20,\"show\":null}"
+    },
+    {
+      "attributes": {
+        "type": "vlocity_ins__Element__c",
+        "url": "/services/data/v55.0/sobjects/vlocity_ins__Element__c/a1o8W000004mmGBQAY"
+      },
+      "Id": "a1o8W000004mmGBQAY",
+      "Name": "MapContactToCensus",
+      "vlocity_ins__Order__c": 3,
+      "vlocity_ins__OmniScriptId__c": "a3F8W000000vdBRUAY",
+      "vlocity_ins__Type__c": "DataRaptor Post Action",
+      "vlocity_ins__InternalNotes__c": null,
+      "vlocity_ins__PropertySet__c": "{\"actionMessage\":\"\",\"additionalInput\":{},\"additionalOutput\":{},\"bundle\":\"Ins_postContactToCencusMember\",\"chainOnStep\":false,\"disOnTplt\":false,\"executionConditionalFormula\":\"%memberDetails:censusMember:ContactId% == $Vlocity.NULL\",\"failOnStepError\":true,\"failureConditionalFormula\":\"\",\"failureResponse\":{},\"label\":\"DataRaptorPostAction2\",\"responseJSONNode\":\"\",\"responseJSONPath\":\"\",\"returnOnlyAdditionalOutput\":false,\"returnOnlyFailureResponse\":false,\"sendJSONNode\":\"\",\"sendJSONPath\":\"\",\"sendOnlyAdditionalInput\":false,\"show\":null,\"useFormulas\":true}"
+    },
+    {
+      "attributes": {
+        "type": "vlocity_ins__Element__c",
+        "url": "/services/data/v55.0/sobjects/vlocity_ins__Element__c/a1o8W000004mmGCQAY"
+      },
+      "Id": "a1o8W000004mmGCQAY",
+      "Name": "LoopBlock1",
+      "vlocity_ins__Order__c": 4,
+      "vlocity_ins__OmniScriptId__c": "a3F8W000000vdBSUAY",
+      "vlocity_ins__Type__c": "Loop Block",
+      "vlocity_ins__InternalNotes__c": null,
+      "vlocity_ins__PropertySet__c": "{\"disOnTplt\":false,\"executionConditionalFormula\":\"\",\"label\":\"LoopBlock1\",\"loopList\":\"set:policyTypes\",\"loopOutput\":{\"SetValues4\":\"=%SetValues4%\"},\"show\":null}"
+    },
+    {
+      "attributes": {
+        "type": "vlocity_ins__Element__c",
+        "url": "/services/data/v55.0/sobjects/vlocity_ins__Element__c/a1o8W000004mmGDQAY"
+      },
+      "Id": "a1o8W000004mmGDQAY",
+      "Name": "getEnrollmentDetails",
+      "vlocity_ins__Order__c": 1,
+      "vlocity_ins__OmniScriptId__c": "a3F8W000000vdBSUAY",
+      "vlocity_ins__Type__c": "DataRaptor Extract Action",
+      "vlocity_ins__InternalNotes__c": null,
+      "vlocity_ins__PropertySet__c": "{\"actionMessage\":\"\",\"additionalInput\":{},\"additionalOutput\":{},\"bundle\":\"Ins_ReadAccountContractEnrollmentDetails\",\"chainOnStep\":false,\"dataRaptor Input Parameters\":[{\"element\":\"Id\",\"inputParam\":\"Id\"}],\"disOnTplt\":false,\"executionConditionalFormula\":\"\",\"failOnStepError\":true,\"failureConditionalFormula\":\"\",\"failureResponse\":{},\"ignoreCache\":false,\"label\":\"DataRaptorExtractAction1\",\"responseJSONNode\":\"\",\"responseJSONPath\":\"\",\"returnOnlyAdditionalOutput\":false,\"returnOnlyFailureResponse\":false,\"sendJSONNode\":\"\",\"sendJSONPath\":\"\",\"sendOnlyAdditionalInput\":false,\"show\":null,\"useFormulas\":true}"
+    }
+  ]
