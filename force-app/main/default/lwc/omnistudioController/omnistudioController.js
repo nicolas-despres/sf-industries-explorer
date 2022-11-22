@@ -18,6 +18,7 @@ class OmnistudioElement {
         this.id = data.Id
         this.name = data.Name
         this.type = data.vlocity_ins__Type__c
+        this.notes = data.vlocity_ins__InternalNotes__c || ''
         this.controller = controller
         if (data.vlocity_ins__PropertySet__c) {
             try {
@@ -57,7 +58,7 @@ class Group extends OmnistudioElement {
 
 class Step extends OmnistudioElement {
     get icon() {
-        return '👤' 
+        return '👤'
     }
 }
 
@@ -73,7 +74,7 @@ class Omniscript extends OmnistudioElement {
             super(data, controller)
             this.type = data.vlocity_ins__OmniProcessType__c || this.type
             this.children = await this.getSteps()
-            this.notes = data.vlocity_ins__AdditionalInformation__c
+            this.notes = this.notes + ' ' + data.vlocity_ins__AdditionalInformation__c
             return this
         })()
     }
@@ -186,7 +187,7 @@ class RemoteAction extends OmnistudioElement {
 
 
 class IntegrationProcedure extends OmnistudioElement {
-  
+
     constructor(data, controller) {
         return (async () => {
             super(data, controller)

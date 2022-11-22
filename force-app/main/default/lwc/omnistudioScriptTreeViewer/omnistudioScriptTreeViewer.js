@@ -36,7 +36,7 @@ function asTreeData(input) {
 	var res =  {
 		...input,
 		name: input.name || input.type,
-		key: input.key || (input.id  + input.name),
+		key: input.key || (Math.random() + 1).toString(36).substring(2),
 		url: input.id ? '/' + input.id : ''
 	}
 	if (input.children) {
