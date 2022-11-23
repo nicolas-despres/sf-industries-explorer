@@ -12,3 +12,17 @@ Whereas Salesforce core provide a lot of tooling to help analyze your org, it is
 The proposed solution is using a D3 collapsible tree that can be embedded within your lightning record page:
 
 ![overview](overview.png)
+
+## Installation
+
+You may easily deploy it to your Org via a simple SFDX deploy command from the project folder.
+
+```
+sfdx force:source:deploy -u yourOrgAlias -w 10 --verbose -p force-app
+```
+
+## Components
+
+2 LWC components are available and can be used into a lightning record page:
+- omnistudioScriptViewer
+- omnistudioScriptTreeViewer 
